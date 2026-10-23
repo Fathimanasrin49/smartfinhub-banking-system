@@ -1,0 +1,6 @@
+
+# Environment files - do not upload secrets
+.env
+.env.*
+!.env.example
+Backend/.env
