@@ -1,0 +1,22 @@
+{
+  "name": "smart-finhub-backend",
+  "version": "1.0.0",
+  "description": "Smart FinHub - Bank Management System Backend",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "index": "node Index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^4.21.0",
+    "groq-sdk": "^0.30.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.0",
+    "nodemailer": "^8.0.1",
+    "qrcode": "^1.5.3"
+  }
+}
